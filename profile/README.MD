@@ -1,43 +1,52 @@
-# AerodisSpace: Streaming Platform for Model Aviation Enthusiasts
+# Aerodis Space: Advanced FPV Video and Sensor Data Streaming Platform
 
-## Project Overview
+## In-Depth Overview
 
-AerodisSpace is a cutting-edge streaming platform tailored for model aviation enthusiasts. It provides a unique space for both hobbyists and professionals in the field to join specific channels and follow model aircraft flights in real-time. The platform offers two primary viewing modes: FPV (First-Person View) video and tracking via sensory data.
+Aerodis Space is an innovative platform designed to revolutionize how we interact with drones and model aircraft, enabling live streaming of FPV (First Person View) video and real-time sensor data transmission. Beyond being a powerful tool for the agricultural sector, its versatility makes it ideal for applications in environmental monitoring, infrastructure inspection, public safety, and scientific research, opening a range of possibilities for the exploration and analysis of aerial data.
 
-## Key Features
+## Basic Features:
 
-### Real-time Data
+### Enhanced Cross-Platform Accessibility
+Desktop and Mobile Integration: Aerodis Space provides a comprehensive experience across both desktop and mobile platforms. On the desktop application, users have the full suite of functionalities including live streaming access, real-time data visualization, and detailed setup configurations for their aircraft models. The mobile application offers streamlined access to viewing streams and monitoring flight data, ensuring users stay connected wherever they go.
 
-- **Supported Sensors**: AerodisSpace captures and streams real-time data from various sensors equipped on the model aircraft, including GPS, gyroscope, accelerometer, and others that users choose to share.
-- **Data Storage**: Users can store their flight data, enabling the creation of datasets. These datasets can be used to train machine learning models for the purpose of automating model aircraft stabilization and configuration.
+### Sophisticated Data Management
+Seamless Data Export to CSV: Aerodis Space enhances its data storage capabilities by introducing a feature that allows users to automatically generate and continuously update CSV files with sensor data in real-time. This functionality empowers users to effortlessly capture and analyze flight data, facilitating a deeper understanding of each flight session.
 
-### LoRa Technology Integration
+### Sensor-Only Data Transmission for Pre-existing Aircraft
+Integration with Commercial Drones: Tailored for enthusiasts who already own a commercial drone, such as a DJI model, Aerodis Space offers a unique solution that bridges the gap between proprietary systems and open-source flexibility. Users can attach a microcontroller equipped with sensors and a radio module to their drone, transforming it into a transmitter. On the ground, a separate microcontroller acts as a receiver, capturing the transmitted data and seamlessly feeding it into the Aerodis Space system for real-time analysis and storage. This innovative approach allows drone owners to enhance their existing models with advanced sensor capabilities without the need for complex modifications, opening up new possibilities for data collection and analysis.
 
-- **LoRa Module**: If the flight device is equipped with a LoRa module, users can integrate it with the Helium network by Solana, leveraging LoRa technology for IoT (Internet of Things) applications.
+---
 
-## Employed Technologies
+## Advanced Features:
 
-### Backend
+### ⚠️ Advanced Data Integration and Analysis
 
-- **Languages and Frameworks**: Utilizes Rust, rocket-rs, scylladb, redis, and websockets for real-time data communication.
+- **Artificial Intelligence for Data Analysis**: Incorporates AI algorithms for the automatic processing and analysis of collected data, allowing for the identification of patterns, anomaly detection, and the generation of valuable insights without manual intervention.
 
-### Embedded Systems
+- **Customizable Dashboard**: Offers an intuitive and customizable control panel, allowing users to monitor the most relevant data for their operations in real time, with the ability to adjust indicators and visualizations as needed.
 
-- **Technologies**: Rust and C/C++.
-	- **Hardware Support**: Compatible with ESP32, ESP8266, Arduino (any).
-- **Functionality**: The provided code simplifies integration, requiring users to only update the WiFi SSID and password fields in a text editor, along with a platform-generated token.
+### ⚠️ Expanded Sensor Compatibility
+- **Integration with Advanced Sensors**: Expands the range of supported sensors to include emerging technologies, such as LiDAR for 3D mapping, thermal cameras for temperature analysis, and air quality sensors, broadening the platform's applications.
 
-### Frontend/Cross-Platform App
+### ⚠️ Enhanced Collaboration and Security
 
-- **Technologies**: The user interface is developed with Vue and TypeScript, employing WASM (WebAssembly) for Rust components integration and styled with Tailwind. The Tauri framework is used to create cross-platform applications that operate on Android, Windows, and Linux, offering an easy-to-use UI. Users can configure their model aircraft settings, such as maximum motor speed, maximum servo angles, positions, and their pins on the embedded system.
+- **Integrated Communication System**: Implements a real-time communication system that allows users to interact directly within the platform, facilitating collaboration and the sharing of insights among teams.
 
-## Basic Operation:
+- **Role-Based Access Control**: Enhances security capabilities with a detailed access control system, allowing administrators to configure specific permissions for different users and groups, ensuring that sensitive information is accessed only by authorized individuals.
 
-1. Register an account on the platform.
-2. Create and configure a model aircraft on the platform.
-3. Save and generate the model aircraft's token.
-4. Download the embedded code from GitHub.
-5. Configure the WiFi SSID and PASSWORD, and input the model aircraft's token in the code.
-6. Once set up, power on the model aircraft/embedded system, and it will be configured.
-7. The system will report its online status every minute.
-8. If online, start a broadcast on the platform (options include data and video streaming).
+### Increased Flexibility and Support
+
+- **Support for Various Drone and Model Aircraft**: Increases the platform's compatibility with a wide variety of drone and model aircraft types, including those used for specific purposes, such as fixed-wing drones for extensive mapping or quadcopters for detailed inspections.
+
+- **Training Modules and Comprehensive Support**: Offers integrated training modules and extensive technical support to assist users in configuring, operating, and maintaining their systems, ensuring an optimized user experience.
+
+### ⚠️ Innovation and Sustainability
+
+- **Features for Environmental Monitoring**: Integrates specific functionalities for environmental monitoring and conservation, such as wildlife tracking, deforestation monitoring, and ocean health analysis, contributing to sustainability and conservation efforts.
+
+- **Open Platform for Developers**: Creates an open ecosystem, allowing third-party developers to create and share plugins or applications that integrate with Aerodis Space, stimulating innovation and the creation of customized solutions.
+
+With these expansions and new functionalities, Aerodis Space establishes itself not just as a platform for FPV video and sensor data streaming, but as a comprehensive solution for the collection, analysis, and sharing of aerial information, opening new horizons for the use of drones and model aircraft across a wide range of applications.
+
+---
+⚠️ = NO STATUS
