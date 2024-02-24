@@ -50,3 +50,8 @@ With these expansions and new functionalities, Aerodis Space establishes itself 
 
 ---
 ⚠️ = NO STATUS
+
+---
+
+## Links
+- <a href="https://discord.gg/9yYcjm7Q">Aerodis Space Discord</a>
